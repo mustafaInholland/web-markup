@@ -1,0 +1,255 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+
+ /*   begin navbar */
+ul {
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid;
+    border-color: #FF9933;
+    overflow: hidden;
+    width: 100%;
+}
+
+    /*img {
+        width: 200px;
+        height: 85px;
+    }*/
+    
+.verticalLine{
+    border-left: thick solid #FF9933;
+    width: 10px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    box-shadow: 0.5px 0px 3px;
+    margin: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+.contact-nav {
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+.contact-nav i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+    li a:hover {
+    background-color: #FF9933;
+    transition-duration: 0.5s;
+}
+    
+/*    einde navbar begin main-content */
+
+
+.logo-nav {
+    height: 100px;
+}
+
+.first-content {
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+.main-image {
+    width: 1000px;
+    height: 500px;
+}
+
+.welcome-message {
+    font-size: 50px;
+}
+
+.about {
+    padding-left: 100px;
+    width: 900px;
+}
+
+.familie-uitjes {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.familie-uitjes-content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.familie-uitjes h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.familie-uitjes img {
+    width: 50%;
+    height: auto;
+}
+
+.familie-uitjes p {
+      margin-top: 0;
+    }
+
+.familie-uitjes button {
+    margin-top: 110px;
+    width: 35%;
+    height: auto;
+    align-self: flex-start;
+}
+
+
+.sociale-huurwoningen {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-right: 100px;
+}
+
+.sociale-huurwoningen-content {
+   padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.sociale-huurwoningen h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.sociale-huurwoningen img {
+    width: 50%;
+    height: auto;
+}
+
+.sociale-huurwoningen p {
+    margin-top: 0;
+    padding-right: 5px;
+}
+
+.sociale-huurwoningen button {
+    margin-top: 10px;
+    width: 35%;
+    height: auto;
+    align-self: flex-start;
+}
+
+
+.wijken {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.wijken-content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wijken h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.wijken img {
+    width: 300px;
+    height: auto;
+}
+
+.wijken p {
+    margin-top: 0;
+}
+
+.wijken button {
+    margin-top: 110px;
+    width: 35%;
+    height: auto;
+    align-self: flex-start;
+}
+
+
+.scholing {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+.scholing-content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scholing h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.scholing img {
+    width: 400px;
+    height: auto;
+}
+
+.scholing p {
+    margin-top: 0;
+    padding-right: 5px;
+}
+
+.scholing button {
+    margin-top: 10px;
+    width: 35%;
+    height: auto;
+    align-self: flex-start;
+}
+
+footer {
+    border-top: 5px solid;
+    border-color: #FF9933; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    text-decoration: none;
+}
+

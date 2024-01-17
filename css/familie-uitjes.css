@@ -1,0 +1,198 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+
+/*   begin navbar */
+ul {
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid;
+    border-color: #FF9933;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*img {
+        width: 200px;
+        height: 85px;
+    }*/
+
+.verticalLine {
+    border-left: thick solid #FF9933;
+    width: 10px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    li a {
+        text-decoration: none;
+        color: black;
+        padding: 50px;
+        box-shadow: 0.5px 0px 3px;
+        margin: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+.contact-nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+    .contact-nav i {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+li a:hover {
+    background-color: #FF9933;
+    transition-duration: 0.5s;
+}
+
+/*    einde navbar begin main-content */
+
+
+.logo-nav {
+    height: 100px;
+}
+
+.first-content {
+    padding-top: 50px;
+ 
+    padding-left: 150px;
+    font-size: 25px;
+    padding-right: 150px;
+}
+
+.first-content h1 {
+    font-size: 40px;
+}
+.page-info {
+    padding-top: 55px;
+    padding-left: 150px;
+}
+
+.first-two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.eenhoorn {
+    display: flex;
+    flex-direction: column;
+}
+
+.eenhoorn-image {
+    width: 500px;
+    height: auto;
+}
+
+.eenhoorn h2 { 
+    width: 500px;
+}
+
+.eenhoorn p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.winkelcentrum-schalkwijk {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 165px;
+}
+
+.winkel-image {
+    width: 500px;
+    height: 376px;
+
+}
+
+.winkelcentrum-schalkwijk h2{
+    width: 500px;
+}
+
+.winkelcentrum-schalkwijk p {
+    width: 500px;
+    font-size: 20px;
+}
+
+
+.last-two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+.kinepolis {
+    display: flex;
+    flex-direction: column;
+}
+
+.kinepolis-image {
+    width: 500px;
+    height: 376px;
+}
+
+.kinepolis-foto h2 {
+    width: 500px;
+}
+
+.kinepolis p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.mahzen {
+    display: flex;
+    flex-direction: column;
+    padding-left: 165px;
+    padding-bottom: 100px;
+}
+
+.mahzen-image {
+    width: 500px;
+    height: 376px;
+}
+
+.mahzen h2{
+    width: 500px;
+}
+
+.mahzen p {
+    width: 500px;
+    font-size: 20px;
+}
+footer {
+    border-top: 5px solid;
+    border-color: #FF9933;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    text-decoration: none;
+}
