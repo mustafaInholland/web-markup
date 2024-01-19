@@ -74,148 +74,76 @@ li a:hover {
 }
 
 .first-content {
-    padding-top: 30px;
-    padding-left: 105px;
+    padding-left: 150px;
     font-size: 25px;
-    padding-right: 150px;
 }
+
+
 
 .first-content h1 {
         font-size: 40px;
     }
 
-.page-info {
-    width: 1200px;
-    padding-top: 35px;
-    padding-left: 105px;
-    padding-bottom: 50px;
-}
-
-.europawijk {
-    display: flex;
-    flex-direction: row;
+.form-info {
+    box-shadow: 3px 1px 1px;
     background-color: #FF9933;
-}
-
-.europawijk img {
-    width: 600px;
-}
-
-.europawijk-content {
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    height: 500px;
+    
 }
 
-.europawijk h2 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 30px;
-}
-
-.europawijk h3 {
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-.europawijk p {
-    font-size: 20px;
-}
-
-
-.meerwijk {
-    margin-top: 50px;
+.radio {
+    margin-top: 70px;
+    margin-left: 70px;
     display: flex;
     flex-direction: row;
-    background-color: #FF9933;
 }
 
-.meerwijk img {
-    width: 600px;
+.name {
+    width: 170px;
+   display: flex;
+   flex-direction: column;
+    margin-left: 75px;
 }
 
-.meerwijk-content {
+.email {
+    width: 170px;
     display: flex;
     flex-direction: column;
+    margin-left: 75px;
 }
 
-.meerwijk h2 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 30px;
+.phone {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
-.meerwijk h3 {
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-.meerwijk p {
-    font-size: 20px;
-}
-
-
-.molenwijk {
-    margin-top: 50px;
+.both {
     display: flex;
     flex-direction: row;
-    background-color: #FF9933;
 }
-
-.molenwijk img {
-        width: 600px;
-    }
-
-.molenwijk-content {
+.message {
+    
     display: flex;
     flex-direction: column;
+    margin-left: 75px;
 }
 
-.molenwijk h2 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 30px;
+.submit {
+    margin-left: 75px;
 }
 
-.molenwijk h3 {
-    font-size: 20px;
-    margin-top: 0px;
+.message textarea{
+    width: 800px;
+    height: 200px;
 }
 
-.molenwijk p {
-    font-size: 20px;
-}
-
-
-.boerhaavewijk {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    background-color: #FF9933;
-}
-
-.boerhaavewijk img {
-        width: 600px;
-    }
-
-.boerhaavewijk-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.boerhaavewijk h2 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 30px;
-}
-
-.boerhaavewijk h3 {
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-.boerhaavewijk p {
-    font-size: 20px;
-}
 
 footer {
     border-top: 5px solid;
