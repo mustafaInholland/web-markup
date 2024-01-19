@@ -1,0 +1,6 @@
+Student name: Mustafa Tepeyurt
+Student number: 722766
+Student class: 1b
+Github repository:https://github.com/mustafaInholland/web-markup
+github pages URL:
+SSH key : git@github.com:mustafaInholland/web-markup.git
