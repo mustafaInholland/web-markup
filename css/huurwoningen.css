@@ -14,6 +14,7 @@ ul {
     border-color: #FF9933;
     overflow: hidden;
     width: 100%;
+    border-width: thick;
 }
 
 /*img {
@@ -45,6 +46,12 @@ li {
         padding-top: 7px;
         padding-bottom: 7px;
     }
+
+nav ul li a:focus {
+    outline: none;
+    color: #ff0000;
+    border-bottom: 2px solid #ff0000
+}
 
 .contact-nav {
     padding-top: 0px;
@@ -98,6 +105,13 @@ li a:hover {
     padding-left: 105px;
     padding-bottom: 50px;
 }
+
+.info-aanmerking h2{
+    text-indent: -1px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    word-spacing: inherit;
+}
 .three-images {
     display: flex;
     flex-direction: row;
@@ -120,7 +134,7 @@ li a:hover {
 
 
 footer {
-    border-top: 5px solid;
+    border-top: 1rem solid;
     border-color: #FF9933;
     display: flex;
     justify-content: space-between;
