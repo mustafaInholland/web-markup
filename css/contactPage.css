@@ -16,10 +16,6 @@ ul {
     width: 100%;
 }
 
-/*img {
-        width: 200px;
-        height: 85px;
-    }*/
 
 .verticalLine {
     border-left: thick solid #FF9933;
@@ -34,7 +30,9 @@ li {
     margin-bottom: 20px;
 }
 
-    li a {
+li a {
+        display: flex;
+        flex-direction: row;
         text-decoration: none;
         color: black;
         padding: 50px;
@@ -42,25 +40,31 @@ li {
         margin: 10px;
         padding-top: 7px;
         padding-bottom: 7px;
-    }
 
-.contact-nav {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
 }
 
+.contact-nav {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-right: 80px;
+    width: 50px;
+    float: right;
+    display: flex;
+}
+
+    .contact-nav a {
+        width: 35px;
+        height: 35px;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-bottom: 1px;
+    }
 
     .contact-nav i {
         vertical-align: middle;
+        margin-top: 17px;
         margin-right: 5px;
     }
-
 li a:hover {
     background-color: #FF9933;
     transition-duration: 0.5s;
@@ -156,4 +160,54 @@ footer {
     left: 0;
     width: 99%;
     text-decoration: none;
+}
+
+    footer a {
+        justify-self: flex-end;
+        text-decoration: none;
+        font-size: 15px;
+        text-decoration-color: black;
+    }
+
+@media screen and (max-width: 768px) {
+    .first-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-info {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .radio {
+        flex-direction: column;
+    }
+
+    .name,
+    .email,
+    .phone,
+    .message {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .both {
+        flex-direction: column;
+    }
+
+    .message textarea {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        footer a {
+            font-size: 14px;
+        }
 }

@@ -35,6 +35,8 @@ li {
 }
 
     li a {
+        display: flex;
+        flex-direction: row;
         text-decoration: none;
         color: black;
         padding: 50px;
@@ -45,22 +47,27 @@ li {
     }
 
 .contact-nav {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-right: 80px;
+    width: 50px;
     float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    display: flex;
 }
 
+    .contact-nav a {
+        width: 35px;
+        height: 35px;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-bottom: 1px;
+    }
 
     .contact-nav i {
         vertical-align: middle;
+        margin-top: 17px;
         margin-right: 5px;
     }
-
 li a:hover {
     background-color: #FF9933;
     transition-duration: 0.5s;
@@ -113,6 +120,7 @@ li a:hover {
     height: 350px;
 }
 
+
 footer {
     border-top: 5px solid;
     border-color: #FF9933;
@@ -124,4 +132,60 @@ footer {
     left: 0;
     width: 99%;
     text-decoration: none;
+}
+
+    footer a {
+        justify-self: flex-end;
+        text-decoration: none;
+        font-size: 15px;
+        text-decoration-color: black;
+    }
+
+@media screen and (max-width: 768px) {
+    li a {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-nav {
+        padding-right: 15px;
+    }
+
+    .first-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .page-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .page-info p {
+        width: 320px;
+    }
+
+    .images-scholing {
+        flex-direction: column;
+    }
+
+    .basischool-foto,
+    .middelbareschool-foto,
+    .moskee-foto {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        footer a {
+            margin-top: 10px;
+            font-size: 14px;
+        }
 }
